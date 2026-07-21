@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adarsh Krishna V — Software Developer</title>
+<meta name="description" content="Portfolio of Adarsh Krishna V, software developer. Projects, skills, and contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="tabbar" id="tabbar">
+  <div class="tabbar__inner">
+    <div class="tabbar__brand">
+      <span class="dot dot--coral"></span>
+      <span class="dot dot--yellow"></span>
+      <span class="dot dot--mint"></span>
+      <span class="tabbar__file">adarsh-krishna.dev</span>
+    </div>
+    <nav class="tabbar__nav" id="nav">
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <button class="tabbar__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero__blob" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <p class="hero__eyebrow">// hello, world</p>
+      <h1 class="hero__name">
+        <span class="bracket">&lt;</span>Adarsh Krishna V<span class="bracket">/&gt;</span>
+      </h1>
+      <p class="hero__role">Software Developer — building fast, friendly products for the web</p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">See my work</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section__inner about__grid">
+      <div class="about__tag">
+        <span class="pill">01 / about</span>
+      </div>
+      <div class="about__content">
+        <h2>Hi, I'm Adarsh.</h2>
+        <p>
+           Hello! I'm <strong>Adarsh Krishna V</strong>, currently pursuing
+        Master of Computer Applications (MCA). I enjoy learning new
+        technologies and building projects that solve real-world problems.
+        My interests include Web Development, Java Programming, and
+        Database Management.
+        </p>
+        <ul class="skills" aria-label="Skills">
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Python</li>
+          <li>MYSql</li>
+          <li>.Net</li>
+          <li>Unity</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section__inner">
+      <span class="pill pill--dark">02 / projects</span>
+      <h2 class="projects__title">Things I've built</h2>
+
+      <div class="projects__grid">
+
+        <article class="card card--violet">
+          <div class="card__bar">
+            <span class="dot dot--coral"></span><span class="dot dot--yellow"></span><span class="dot dot--mint"></span>
+            <span class="card__lang">react</span>
+          </div>
+          <div class="card__body">
+            <h3>AquaSports</h3>
+            <p>An e-commerce platform for water sports equipment, offering a seamless shopping
+                 experience with categorized products, secure checkout, and responsive design.</p>
+            <div class="card__tags">
+              <span>HTML</span><span>CSS</span><span>PHP</span>
+            </div>
+            <div class="card__links">
+              <a href="#" target="_blank" rel="noopener">Live demo</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--coral">
+          <div class="card__bar">
+            <span class="dot dot--coral"></span><span class="dot dot--yellow"></span><span class="dot dot--mint"></span>
+            <span class="card__lang">python</span>
+          </div>
+          <div class="card__body">
+            <h3>BookSaw</h3>
+            <p>An online bookstore that allows users to browse, search, and purchase books 
+                through an intuitive interface with organized categories and a smooth shopping experience.</p>
+            <div class="card__tags">
+              <span>.Net</span><span>JavaScript</span><span>MySQL</span>
+            </div>
+            <div class="card__links">
+              <a href="#" target="_blank" rel="noopener">Live demo</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--mint">
+          <div class="card__bar">
+            <span class="dot dot--coral"></span><span class="dot dot--yellow"></span><span class="dot dot--mint"></span>
+            <span class="card__lang">ts</span>
+          </div>
+          <div class="card__body">
+            <h3>LivestockCare</h3>
+            <p>A smart livestock management system for monitoring animal health, tracking vaccinations, 
+                managing feeding schedules, and simplifying day-to-day farm operations through a centralized platform.</p>
+            <div class="card__tags">
+              <span>TypeScript</span><span>Next.js</span><span>IndexedDB</span>
+            </div>
+            <div class="card__links">
+              <a href="#" target="_blank" rel="noopener">Live demo</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section__inner contact__inner">
+      <span class="pill pill--dark">03 / contact</span>
+      <h2>Let's build something.</h2>
+      <p class="contact__sub">
+        Open to new roles, freelance work, or just talking shop about code.
+        Reach out — I usually reply within a day.
+      </p>
+      <div class="contact__actions">
+        <a class="btn btn--primary" href="mailto:jadarshvkalarickal@gmail.com">adarshvkalarickal@gmail.com</a>
+      </div>
+      <div class="contact__socials">
+        <a href="https://github.com/adarsh-kv" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/adarsh-krishna-v/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Jordan Blake. Built with HTML &amp; CSS.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
